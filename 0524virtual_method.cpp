@@ -22,7 +22,7 @@ public:
 
         void eat();
         void sleep();
-        virtual void play();
+        virtual void play();    //声明为虚方法
 
 protected:
         std::string name;
