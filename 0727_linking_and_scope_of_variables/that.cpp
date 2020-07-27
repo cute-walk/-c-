@@ -1,0 +1,25 @@
+#include "header.h"
+
+unsigned short thatNum = 8;
+bool printMe = true;
+
+unsigned long returnFactorial(unsigned short num)
+{
+        unsigned long sum = 1;
+
+        for (int i=1; i<=num; i++)
+        {
+                sum = sum * i;
+        }
+
+        if (printMe)
+        {
+                return sum;
+        }
+
+        else
+        {
+                return 0;
+        }
+
+}
